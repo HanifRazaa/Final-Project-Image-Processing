@@ -43,7 +43,7 @@ while True:
         if len(approx) >= 3:
             cv2.drawContours(frame, [approx], 0, (0, 255, 0), 2)
 
-            vertices = len(approx)
+            vertices = len(approx) 
         shape = "Unidentified"
         if vertices == 3:
             shape = "Triangle"
